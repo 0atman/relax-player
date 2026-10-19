@@ -15,7 +15,7 @@ use clap::Parser;
 struct Cli {}
 
 fn main() -> Result<()> {
-    let cli = Cli::parse();
+    let _cli = Cli::parse();
     let mut app = App::new()?;
 
     // Run the app
